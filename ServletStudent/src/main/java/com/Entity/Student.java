@@ -3,7 +3,7 @@ package com.Entity;
 public class Student {
 	
 	
-	private int id;
+	private String id;
 	
 	private String name;
 	
@@ -21,7 +21,7 @@ public class Student {
 	
 	
 
-	public Student(int id, String name, String email, String password, String mobileNo, String gender, String city) {
+	public Student(String id, String name, String email, String password, String mobileNo, String gender, String city) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -36,7 +36,7 @@ public class Student {
 
 
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
@@ -44,7 +44,7 @@ public class Student {
 
 
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
