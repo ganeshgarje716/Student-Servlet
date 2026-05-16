@@ -72,7 +72,9 @@
 
 <div class="topbar">Register Form</div>
 
-<form action="RegisterServlet" method="post">
+<form action="registration" method="post">
+
+<p style="color: green">${msg}</p>
 
 <table>
 
